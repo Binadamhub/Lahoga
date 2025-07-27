@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #0077b6;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  margin: 15px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #0077b6;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.ceo-pic {
+  width: 120px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background: #0077b6;
+  color: white;
+  padding: 10px;
+}
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #25d366;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.map {
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .ceo-pic {
+    width: 100px;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+}
